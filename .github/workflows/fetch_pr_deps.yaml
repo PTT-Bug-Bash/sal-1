@@ -68,7 +68,7 @@ jobs:
           SEMGREP_APP_URL: ${{ secrets.SEMGREP_APP_URL }}
           LICENSE_POLICY_THRESHOLD: "LICENSE_POLICY_SETTING_ALLOW"
           DEPLOYMENT_ID: 32051
-          REPOSITORY_ID: 12345 # find it!
+          REPOSITORY_ID: 890378 # find it!
         run: |
           retry_count=0
           max_retries=5
